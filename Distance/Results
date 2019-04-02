@@ -1,0 +1,33 @@
+result
+
+
+
+
+
+
+
+d1: 0' 0"
+d2: 2' 5.9"
+d3: 0' 3.75"
+d4: 6' 7.34"
+d5: 8' 4"
+d4 + d5: 14' 11.34"
+d2 + d4: 9' 1.24"
+d3 - d1: 0' 3.75"
+d1 - d3: 0' 3.75"
+d4 - d2: 4' 1.44"
+d2 - d4: 4' 1.44"
+d4 - d5: 1' 8.66"
+d5 - d2: 5' 10.1"
+
+
+    bool positiveFt = false;
+    bool positiveIn = false;
+    if(static_cast<signed>(feet) >= 0){
+        positiveFt = true;
+        cout << "good feet" << endl;
+    }
+    if(inches >= 0){
+        positiveIn = true;
+        cout << "good inches" << endl;
+    }
